@@ -140,7 +140,6 @@ section:nth-child(even){
 
 .skills-display {
     width: 70%;
-    margin-top: 4rem;
     margin-bottom: 1.5rem;
     display: flex;
     flex-wrap: wrap;
@@ -148,13 +147,13 @@ section:nth-child(even){
 }
 
 .skill-progress {
-    width: 7rem;
-    height: 1.4rem;
+    width: 9rem;
+    height: 2rem;
     margin: 20px;
     background-color: lightgrey;
     border-radius: 0.8rem;
     overflow: hidden;
-    box-shadow: inset 1px 1px 2px 1px #b9b9b9;
+    box-shadow: 1px 1px 2px 1px #b9b9b9;
     /*border: 2px solid black;*/
 }
 /* 
@@ -204,7 +203,35 @@ section:nth-child(even){
 
 /*Percentage Classes */
 
-.eighty-five-percent {
+.fifty-percent {
+    width: 50%;
+    height: inherit;
+}
+
+.fourty-percent {
+    width: 40%;
+    height: inherit;
+}
+.eighty-percent {
     width: 80%;
+    height: inherit;
+}
+.sixty-percent {
+    width: 60%;
+    height: inherit;
+}
+
+.seventy-percent {
+    width: 70%;
+    height: inherit;
+}
+
+.seventy-five-percent {
+    width: 75%;
+    height: inherit;
+}
+
+.eighty-five-percent {
+    width: 85%;
     height: inherit;
 }
